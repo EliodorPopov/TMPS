@@ -1,0 +1,10 @@
+D:\githubprojects\TMPS\bin\Debug\netcoreapp2.2\Patterns.deps.json
+D:\githubprojects\TMPS\bin\Debug\netcoreapp2.2\Patterns.runtimeconfig.json
+D:\githubprojects\TMPS\bin\Debug\netcoreapp2.2\Patterns.runtimeconfig.dev.json
+d:\githubprojects\TMPS\bin\Debug\netcoreapp2.2\Patterns.dll
+d:\githubprojects\TMPS\bin\Debug\netcoreapp2.2\Patterns.pdb
+d:\githubprojects\TMPS\obj\Debug\netcoreapp2.2\Patterns.csprojAssemblyReference.cache
+d:\githubprojects\TMPS\obj\Debug\netcoreapp2.2\Patterns.AssemblyInfoInputs.cache
+d:\githubprojects\TMPS\obj\Debug\netcoreapp2.2\Patterns.AssemblyInfo.cs
+d:\githubprojects\TMPS\obj\Debug\netcoreapp2.2\Patterns.dll
+d:\githubprojects\TMPS\obj\Debug\netcoreapp2.2\Patterns.pdb
