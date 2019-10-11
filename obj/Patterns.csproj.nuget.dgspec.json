@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\githubprojects\\TMPS\\Patterns.csproj": {}
+    "D:\\GithubProjects\\TMPS\\Patterns.csproj": {}
   },
   "projects": {
-    "D:\\githubprojects\\TMPS\\Patterns.csproj": {
+    "D:\\GithubProjects\\TMPS\\Patterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\githubprojects\\TMPS\\Patterns.csproj",
+        "projectUniqueName": "D:\\GithubProjects\\TMPS\\Patterns.csproj",
         "projectName": "Patterns",
-        "projectPath": "D:\\githubprojects\\TMPS\\Patterns.csproj",
-        "packagesPath": "C:\\Users\\Eliodor\\.nuget\\packages\\",
-        "outputPath": "D:\\githubprojects\\TMPS\\obj\\",
+        "projectPath": "D:\\GithubProjects\\TMPS\\Patterns.csproj",
+        "packagesPath": "C:\\Users\\Cavcaliuc Nina\\.nuget\\packages\\",
+        "outputPath": "D:\\GithubProjects\\TMPS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eliodor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cavcaliuc Nina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
