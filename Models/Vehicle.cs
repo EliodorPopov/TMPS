@@ -12,6 +12,7 @@ namespace Patterns
     }
     public class Vehicle : ICloneable
     {
+
         public Vehicle(string manufacturer, string model, int year, string vINCode, string fuelType, ChasisTypes chasis, string countryOfManufacture, int maxSpeed, int nrOfWheels, int nrOfSeats, float pricePerHour, float urbanConsumption)
         {
             Manufacturer = manufacturer;
@@ -27,6 +28,9 @@ namespace Patterns
             PricePerHour = pricePerHour;
             UrbanConsumption = urbanConsumption;
         }
+
+
+
         private string _VINCode;
         public string Manufacturer { get; private set; }
         public string Model { get; private set; }
@@ -58,5 +62,30 @@ namespace Patterns
         {
             return this.MemberwiseClone();
         }
+
+        // Template pattern
+        public virtual void Clean()
+        {
+            Console.WriteLine("Car has been cleaned and it shines");
+        }
+
+        public virtual void Fuel()
+        {
+            Console.WriteLine("Car has been fueled with " + FuelType);
+        }
+
+        public virtual void MechanicCheck()
+        {
+            Console.WriteLine("Car has been checked by the mechanic. Everything looks good!");
+        }
+
+        public void PrepareForRent()
+        {
+            this.Clean();
+            this.Fuel();
+            this.MechanicCheck();
+            Console.WriteLine("Car has been prepared for client");
+        }
+
     }
 }
