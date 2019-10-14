@@ -47,15 +47,11 @@ namespace Patterns
 
         public void PrintVehicle()
         {
-            
-            Console.WriteLine($"\n{Manufacturer} {Model}:" +
-                $"\nVIN: {VINCode}" +
-                $"\nFuel type: {FuelType}" +
-                $"\nChasis: {Chasis}" +
-                $"\nCountry: {CountryOfManufacture}" +
-                $"\nMax speed: {MaxSpeed} km/h" +
-                $"\nDetails: {NrOfSeats} seats" +
-                $"\nPrice per hour: {PricePerHour} euro");
+            //{ Manufacturer}
+            //, Model, VINCode, FuelType, Chasis, CountryOfManufacture, MaxSpeed, NrOfSeats, PricePerHour);
+            Console.WriteLine("{0,-12}{1,10}{2,18}{3,10}{4,10}{5,13}{6,18}{7,12}{8,15}",
+                Manufacturer, Model, VINCode, FuelType, Chasis, CountryOfManufacture, MaxSpeed, NrOfSeats, PricePerHour);//, Model, VINCode, FuelType, Chasis, CountryOfManufacture, MaxSpeed, NrOfSeats, PricePerHour);
+
         }
 
         public object Clone()

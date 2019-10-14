@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Patterns.StructuralPatterns
+namespace Patterns
 {
     class EconomVehicleDecorator : VehicleDecorator
     {
