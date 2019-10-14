@@ -15,16 +15,19 @@ namespace Patterns
         public override void Clean()
         {
             base.Clean();
+            Console.WriteLine("Polished the entire car to make it shine");
         }
 
         public override void Fuel()
         {
             base.Fuel();
+            Console.WriteLine("Added additives into the fuel tank for better performance");
         }
 
         public override void MechanicCheck()
         {
             base.MechanicCheck();
+            Console.WriteLine("Changed premium brake pads");
         }
     }
 }

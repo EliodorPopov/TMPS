@@ -10,7 +10,7 @@ namespace Patterns
     {
         Automatic, Manual
     }
-    public class Vehicle : ICloneable
+    public class Vehicle : ICloneable, IVehicle
     {
 
         public Vehicle(string manufacturer, string model, int year, string vINCode, string fuelType, ChasisTypes chasis, string countryOfManufacture, int maxSpeed, int nrOfWheels, int nrOfSeats, float pricePerHour, float urbanConsumption)
@@ -39,11 +39,11 @@ namespace Patterns
         public string FuelType { get; private set; }
         public ChasisTypes Chasis { get; private set; }
         public string CountryOfManufacture { get; private set; }
-        public int MaxSpeed { get; private set; }
+        public int MaxSpeed { get; set; }
         public int NrOfWheels { get; private set; }
         public int NrOfSeats { get; private set; }
         public float PricePerHour {get; set;}
-        public float UrbanConsumption {get; private set;}
+        public float UrbanConsumption {get; set;}
 
         public void PrintVehicle()
         {

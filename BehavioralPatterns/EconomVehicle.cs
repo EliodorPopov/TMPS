@@ -20,7 +20,7 @@ namespace Patterns
         public override void Fuel()
         {
             base.Fuel();
-            Console.WriteLine("Check fuel tank");
+            Console.WriteLine("Check fuel tank for leaks");
         }
 
         public override void MechanicCheck()
