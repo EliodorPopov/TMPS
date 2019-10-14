@@ -24,6 +24,9 @@ namespace Patterns
 
         public void PrintVehicles()
         {
+            Console.WriteLine("****** List of vehicles ******");
+            Console.WriteLine("{0,-12}{1,10}{2,18}{3,10}{4,10}{5,13}{6,18}{7,12}{8,15}",
+                "Manufacturer", "Model", "VIN", "Fuel type", "Chasis", "Country", "Max speed(km/h)", "Nr of seats", "Price/h(eur)");
             database.cars.ForEach(c =>
             {
                 c.PrintVehicle();
