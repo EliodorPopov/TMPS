@@ -7,10 +7,3 @@
     * Proxy
 3. Behavioral Patterns:
     * Strategy
-
-## Team: 
-* Ana Turcanu
-* Cavcaliuc Nina
-* Cristofor Fistic
-* Vasile Gurduza
-* Eliodor Popov
